@@ -79,6 +79,41 @@ input {
     color: white;
 }
 
+.img-nav{
+    border-radius: 50%;
+    /* width:30px;
+    height: 40px; */
+    padding: 10px 10px 10px 10px;
+}
+
+.img-nav1{
+    background-color: #00008B !important;
+}
+
+.whiteincolor{
+    color: white;
+}
+
+
+.ellipsis1 {
+    width: 260px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    margin: 0 5px 0 5px;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.main-card{
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
+
 /* Media Query */
 @media screen and (max-width: 768px) {
     .container {
